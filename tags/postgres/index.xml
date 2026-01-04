@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Postgres on Software Engineering - Software hacks in small packs</title><link>https://rupeshsharma.in/tags/postgres/</link><description>Recent content in Postgres on Software Engineering - Software hacks in small packs</description><generator>Hugo -- 0.146.0</generator><language>en-us</language><lastBuildDate>Tue, 24 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://rupeshsharma.in/tags/postgres/index.xml" rel="self" type="application/rss+xml"/><item><title>After effect of Postgres DB upgrade</title><link>https://rupeshsharma.in/posts/after-effect-of-postgres-db-upgrade/</link><pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate><guid>https://rupeshsharma.in/posts/after-effect-of-postgres-db-upgrade/</guid><description>&lt;p>&lt;strong>The Story:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Client reported that one of the reports which was getting generated in 15-20 mins is not taking ours.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>We tried analysing the RDS performance insight and came to know IO:DataFileRead is taking time.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Recently we upgraded the Postgres version from 12 to 15 on two of our projects.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>We had two possible causes(still a theory)&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Recently we upgraded the Postgres version from 12 to 15 on two of our projects. It can be the root cause.&lt;/p></description></item></channel></rss>
