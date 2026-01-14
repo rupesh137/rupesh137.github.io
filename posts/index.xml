@@ -7,7 +7,7 @@
 &lt;p>After becoming a tech lead it was more about focusing on the design system and my team writing most of the code. It doesn’t mean I didn’t write any. I used to find some tasks which I can work on independently as I didn’t want to lose touch and I like to write code. But since then I never had a long uninterrupted streak of writing code. &lt;/p></description></item><item><title>After effect of Postgres DB upgrade</title><link>https://rupeshsharma.in/posts/after-effect-of-postgres-db-upgrade/</link><pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate><guid>https://rupeshsharma.in/posts/after-effect-of-postgres-db-upgrade/</guid><description>&lt;p>&lt;strong>The Story:&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>Client reported that one of the reports which was getting generated in 15-20 mins is not taking ours.&lt;/p>
+&lt;p>Client reported that one of the reports which was getting generated in 15-20 mins is now taking hours.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>We tried analysing the RDS performance insight and came to know IO:DataFileRead is taking time.&lt;/p>
